@@ -103,9 +103,12 @@ ul {
 
 .button {
     font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-weight: var(--medium-text-weight);
     font-size: 16px;
     line-height: 1.5;
+    font-family: 'Roboto';
 
     letter-spacing: 0.04em;
     
@@ -113,6 +116,8 @@ ul {
     background-color: var(--part-logo-color);
 
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
 }
 
 .button:hover, .button:focus {
@@ -169,4 +174,8 @@ ul {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.link {
+    text-decoration: none;
 }
